@@ -3,6 +3,7 @@ import React from "react";
 import Navigation from "./components/Navigation/Navigation";
 import SingleCard from "./components/SingleCard/SingleCard";
 import Grid2 from "@mui/material/Grid2";
+import Footer from "./components/Footer/Footer";
 
 const mockData = [
   {
@@ -40,7 +41,7 @@ function App() {
     console.log(`Movie ID: ${id}`);
   };
 
- return (
+  return (
     <div className="App">
       <Navigation />
       <Grid2 container spacing={2} sx={{ padding: "15px" }}>
@@ -58,6 +59,8 @@ function App() {
           );
         })}
       </Grid2>
+
+      <Footer />
     </div>
   );
 }
