@@ -12,7 +12,9 @@ const Footer = () => {
         backgroundColor: "#232323",
         color: "#fff",
         padding: "20px",
-        mt: "auto", // чтобы футер оставался снизу
+        marginTop: "330px"
+        // mt: "auto"
+        // чтобы футер оставался снизу
       }}
     >
       <Grid2
